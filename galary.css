@@ -1,0 +1,189 @@
+body{
+	margin:0 0 0 0;
+}
+
+.parent{
+	padding-top: 30px;
+	height: 2000px;
+	width: 1400px;
+
+}
+/*.jumbotron {
+	color: rgb(68,68,68);
+}
+*/
+.leftnav {
+
+    background-color: white;
+    overflow: hidden;
+    outline: none;
+    margin-left: 40px;
+    position: absolute;
+    float:left;
+ 	width:900px;
+    height:60px;
+}
+
+.rightnav {
+    background-color: white;
+    overflow: hidden;
+    outline: none;
+    float:right;
+ 	width:250px;
+    height:60px;
+}
+
+.rightnav a {
+    color: rgb(68,68,68,0.9);
+    text-align: center;
+    padding: 18px 18px 18px 18px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: Georgia, serif;
+
+}
+/* Style the links inside the navigation bar */
+.leftnav a {
+    color: rgb(68,68,68,0.9);
+    text-align: center;
+    padding: 18px 18px 18px 18px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: Georgia, serif;
+
+
+}
+
+
+/* Change the color of links on hover */
+.leftnav a .rightnav a: hover   {
+    background-color: rgba(68,68,68,0.8);
+    color: white;
+}
+
+/* Add a color to the active/current link */
+/*.leftnav a.active {
+    background-color:rgba(2，2，2,0.8);
+    color: ;black
+}*/
+
+.part1 {
+
+ 	margin-top: 60px;
+    height: 600px;
+    width: 105%;		
+    background-image: url("bgp.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top; 
+    position:absolute;
+
+   
+     				
+ }
+
+
+.part3 {
+    margin-top: 0;
+    height: 520px;
+    width: 100%;
+    color: rgba(255,255,255,0.9);
+    position: absolute;
+    background-color: rgba(68,68,68,0.9);
+    padding-top: 15px;
+ }
+
+ .part4 {
+    margin-top: 40px;
+    height: 420px;
+    width: 100%;
+    color: rgba(255,255,255,0.9);
+    position: absolute;
+    background-color: rgba(68,68,68,0.7);
+    padding-top: 15px;
+ }
+
+.part5 {
+   
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(68,68,68,0.4);
+ }
+
+
+.input{
+width: 342px;
+    height: 42px;
+    background-color: #eeeeee;
+    border:none;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    font-style:italic;
+}
+
+button {
+width:112px;
+            height: 42px;
+            background-color:rgba(68,68,68,0.5);
+            color:#fff;
+            border:none;
+            border-top-right-radius:5px;
+            border-bottom-right-radius:5px;
+            position: relative;
+            font-size:16px;
+            font-weight: bold;
+}
+
+.readmore{
+            margin-top: 15px;
+            width:140px;
+            height: 48px;
+            background-color:rgba(0,0,0,0.5);
+            border-radius: 5px;
+            color:#fff;
+            border:none;
+            font-size:16px;
+            font-weight: bold;
+
+}
+
+button: before{
+            content:"";
+            border-width:6px;
+            border-style:solid;
+            border-color: transparent rgb(68,68,68) transparent transparent;
+            position: absolute;
+            right:100%;
+            top:38%;
+        }
+
+/* 透明渐变 - color - transparent */
+
+.blog {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0));
+}
+
+hr {
+    width: 50%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0));
+}
+
+
+/*
+ #img{
+ 	
+	-webkit-filter: blur(3px); 
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px);    
+    filter: blur(3px);	
+
+ }*/
